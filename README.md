@@ -1,6 +1,8 @@
 # Data Engineering Assignment
 This project demonstrates a complete data pipeline that extracts movie data from The Movie Database (TMDb) API, processes it, and stores it in Snowflake using AWS services like Lambda, S3, SNS, and SQS.
 # Workflow Overview
+<img width="767" height="422" alt="image" src="https://github.com/user-attachments/assets/785a4fa2-aa01-43ff-9f08-ab024e5c3835" />
+
 ## 1. Data Extraction with AWS Lambda
 A Python script running on an AWS Lambda function is scheduled to periodically fetch movie data from the https://www.themoviedb.org/documentation/api.
 The Lambda function extracts relevant movie metadata such as:
